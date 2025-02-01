@@ -13,7 +13,7 @@ A deep learning project that predicts wine varieties based on textual descriptio
 ## Key Features
 - **NLP Pipeline**: Text cleaning, lemmatization, and stopword removal
 - **Feature Engineering**: TF-IDF vectorization with 1000 features
-- **Deep Learning Model**: 4-layer neural network with dropout regularization
+- **Deep Learning Model**: 6-layer neural network with dropout regularization
 - **Label Encoding**: Automatic handling of text-based wine varieties
 - **Prediction API**: Ready-to-use function for new wine descriptions
 
@@ -87,8 +87,8 @@ Sequential(
 ## Performance
 | Metric        | Value  |
 |---------------|--------|
-| Accuracy      | 85.2%  |
-| Loss          | 0.428  |
+| Accuracy      | 56.2%  |
+| Loss          | 1.428  |
 | Training Time | ~2m/epoch (CPU) |
 
 ## Repository Structure
