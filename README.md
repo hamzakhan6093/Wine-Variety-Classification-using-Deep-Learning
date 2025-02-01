@@ -20,7 +20,7 @@ A deep learning project that predicts wine varieties based on textual descriptio
 ## Installation
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/wine-classification-ann.git
+git clone https://github.com/hamzakhan6093/Wine-Variety-Classification-using-Deep-Learning.git
 cd wine-classification-ann
 ```
 
@@ -78,6 +78,8 @@ Sequential(
     Dropout(0.3),
     Dense(128, activation='relu'),
     Dropout(0.2),
+    Dense(64, activation='relu'),
+    Dropout(0.1),
     Dense(num_classes, activation='softmax')
 )
 ```
